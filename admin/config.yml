@@ -1,6 +1,13 @@
-backend:
-  name: git-gateway
-  branch: main # Branch to update (main by default)
+development:
+  backend:
+    name: netlify-api
+    url: http://localhost:8080
+
+production:
+  backend:
+    name: github-api
+    repo: Hidden-College/isabella.hcol.uk # Path to your GitHub repository
+    branch: master # Branch to update (master by default)
 
 media_folder: "src/assets/img/uploads" # Media files will be stored in the 'uploads' directory
 public_folder: "/assets/img/uploads" # Public path to the media files
