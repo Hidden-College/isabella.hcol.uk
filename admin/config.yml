@@ -1,5 +1,5 @@
 backend:
-  name: github-api
+  name: github
   repo: Hidden-College/isabella.hcol.uk # Path to your GitHub repository
   branch: master # Branch to update (master by default)
 
